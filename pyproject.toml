@@ -1,7 +1,7 @@
 [project]
 name = "molecule-analysis"
 version = "0.1.0"
-description = "Add your description here"
+description = "MoleculeNet dataset"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -9,8 +9,10 @@ dependencies = [
     "matplotlib>=3.10.9",
     "numpy>=1.26,<2.0",
     "pandas>=2.3.3",
+    "psycopg[binary]>=3.3.4",
     "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",
+    "sqlalchemy[asyncio]>=2.0.51",
     "tensorflow==2.16.2",
     "torch==2.2.2",
 ]
