@@ -31,7 +31,6 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
         
       - name: Install dependencies
-        working-directory: py
         shell: bash
         run: |
           pip install uv
