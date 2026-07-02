@@ -1,9 +1,19 @@
-__pycache__/
-*.py[oc]
+.vscode/*
+!.vscode/launch.json
+HELP.md
 build/
 out/
 dist/
+.env
+
+### macOS ###
+.DS_Store
+
+### Python ###
+.venv
+*.pyc
+*__pycache__*
+.ipynb_checkpoints/
+*.py[oc]
 wheels/
 *.egg-info
-
-.venv
