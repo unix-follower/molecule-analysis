@@ -17,3 +17,11 @@ dist/
 *.py[oc]
 wheels/
 *.egg-info
+
+### Krita ###
+*.kra
+*.kra~
+
+### Images ###
+*.jpg
+*.jpg~
